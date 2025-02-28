@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фото дня от Unsplash</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фото дня</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Фото дня</h1>
-        <div class="photo-container">
-            <img id="photo" src="" alt="Случайное фото от Unsplash">
-            <div class="photo-info">
-                <p id="photographer"></p>
-                <button id="likeBtn" class="btn btn-primary">👍 Лайк</button>
-                <p id="likeCount">Лайков: 0</p>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+
+  <h1>Фото дня</h1>
+  <img id="photo" src="" alt="Случайное фото" />
+  <div id="photographer"></div>
+  <div id="likeCount">Лайков: 0</div>
+  <button id="likeBtn">Лайк</button>
+  <button id="historyBtn">Посмотреть фото дня</button>
+
+  <h2>История</h2>
+  <ul id="historyList"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>
